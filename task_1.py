@@ -8,7 +8,7 @@ d = int(input("Введите разность прогрессии: "))
 n = int(input("Введите количество элементов прогрессии: "))
 progression = [0] * n
 for i in range(n):
-    progression[i] = a1 + i * d
+    progression[i] = a1 + (i-1) * d
 print("Элементы арифметической прогрессии: ")
 for i in progression:
     print(i)
